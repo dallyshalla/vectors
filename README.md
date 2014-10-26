@@ -20,5 +20,5 @@ study vectors
     std::vector<int> vectorOne(10,5);
     for (long index=0; index<(long)vectorOne.size(); ++index)
     
-    //size determines index bounday = 10)
+    //size determines index boundary = 10)
                                                               vectors2.cc
