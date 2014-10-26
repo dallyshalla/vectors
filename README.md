@@ -18,13 +18,15 @@ study vectors
 .size() - returns the number of elements in the vector.
     
     std::vector<int> vectorOne(10,5);
+    for (long index=0; index<(long)vectorOne.size(); ++index)
+    
+    //size determines index boundary = 10)
+                                                              
+    std::vector<int> vectorOne(10,5);
     std::cout << "Size of vector is " << vectorOne.size() << " elements." << std::endl;
     for (long index=0; index<(long)vectorOne.size(); ++index) {
       std::cout << "Element " << index << ": " << vectorOne.at(index) << std::endl;
     }
-    
-    //size determines index boundary = 10)
-                                                              vectors2.cc
     /* OutPut:
         Size of vector is 10 elements.
         Element 0: 5
@@ -38,3 +40,4 @@ study vectors
         Element 8: 5
         Element 9: 5
       */
+                                                           vectors2.cc
