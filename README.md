@@ -23,7 +23,9 @@ study vectors
     //size determines index boundary = 10)
                                                               
     std::vector<int> vectorOne(10,5);
+    
     std::cout << "Size of vector is " << vectorOne.size() << " elements." << std::endl;
+    
     for (long index=0; index<(long)vectorOne.size(); ++index) {
       std::cout << "Element " << index << ": " << vectorOne.at(index) << std::endl;
     }
